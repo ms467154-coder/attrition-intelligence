@@ -1,0 +1,1 @@
+ALTER TABLE `predictions` MODIFY COLUMN `probability` varchar(32) NOT NULL;

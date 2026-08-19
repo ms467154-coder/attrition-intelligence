@@ -1,0 +1,22 @@
+# Project TODO
+
+- [x] Build the attrition dashboard home with exact CV F1, Test F1, and PR-AUC figures.
+- [x] Build the protected employee prediction form with all relevant HR inputs.
+- [x] Implement real-time attrition risk scoring through the validated `best_f1_model.joblib` ensemble.
+- [x] Add exact High Recall, Balanced, and High Precision operating modes with thresholds 0.27, 0.32, and 0.45.
+- [x] Add authenticated prediction history persistence and table views.
+- [x] Add model insights page with precision/recall frontier, feature importance, and constrained operating-point data.
+- [x] Add Python inference runner integrated with the Node.js backend through a child process.
+- [x] Add database schema and procedures for predictions and history.
+- [x] Apply cream/off-white and muted soft-red brand system with responsive accessibility.
+- [x] Add Vitest coverage for inference validation and prediction procedures.
+- [x] Synchronize the finished application into the connected local folder `Attrition Prediction ---Need to complete`.
+- [x] Wire model insights to the copied feature-importance and constrained-operating-point artifacts instead of hardcoded rows.
+- [x] Add Vitest tests for protected prediction creation/history and saved payload validation.
+- [x] Synchronize the application directly into the requested local folder root, preserving the exact folder name.
+- [x] Fix reported ML inference failure in the deployed prediction flow and verify end-to-end scoring.
+- [x] Add the OpenMP runtime library required by LightGBM and verify production ML inference after rebuild.
+- [x] Add an authenticated smoke test that exercises real model loading and protected prediction creation.
+- [x] Decouple production inference from the LightGBM training module so missing libgomp cannot block model loading.
+- [x] Fix authenticated prediction-history database insert failure and verify a real prediction can be persisted.
+- [ ] Create a GitHub repository and push the latest Attrition Intelligence project.
